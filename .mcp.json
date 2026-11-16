@@ -1,0 +1,24 @@
+
+{
+  "mcpServers": {
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "X-MCP-Tools": "list_branches,get_file_contents,create_branch,create_or_update_file,push_files,create_pull_request,actions_list,actions_get,actions_run_trigger"
+      },
+      "tools": [
+        "list_branches",
+        "get_file_contents",
+        "create_branch",
+        "create_or_update_file",
+        "push_files",
+        "create_pull_request",
+        "actions_list",
+        "actions_get",
+        "actions_run_trigger"
+      ]
+    }
+  }
+}
+  

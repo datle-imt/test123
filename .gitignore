@@ -1,0 +1,7 @@
+node_modules/
+.venv/
+__pycache__/
+.portal-playwright-profile/
+enrollment-performance-results.csv
+enrollment-performance-error.png
+.env
