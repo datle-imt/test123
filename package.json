@@ -1,0 +1,13 @@
+{
+  "name": "portal-enrollment-perf-passkey",
+  "version": "4.0.0",
+  "private": true,
+  "description": "Enrollment UI timing with Windows passkey PIN helper",
+  "scripts": {
+    "start": "node enrollment-performance.js",
+    "fresh": "node enrollment-performance.js --fresh-login",
+    "test:offline": "node tests/test_login_flow.cjs"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": { "playwright": "^1.49.0", "dotenv": "^16.6.1" }
+}
